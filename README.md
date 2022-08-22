@@ -12,3 +12,5 @@ Many applications rely on continual data collection to provide real-time informa
 2. stock_32.txt (real dataset with T=32)
 3. syn_data16.txt (synthetic dataset with T=16)
 4. syn_data32.txt (synthetic dataset with T=32)
+# Contact
+Please feel free to send email to qiaoxue1992@gmail.com for any question.
