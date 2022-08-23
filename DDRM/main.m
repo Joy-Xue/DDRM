@@ -26,9 +26,10 @@ for i = 1:8
     parfor j = 1:10
         [f,N] = DDRM(C,ep(i),T,K(i));
         f = correction(f,T);
-        err0(j) = max(abs(True-f));
-        err1(j) = sum(abs(True-f));
-        err2(j) = sqrt(sum((True-f).^2));
+        Dis = sqrt(2)*(abs(True-f));
+        err0(j) = max(Dis);
+        err1(j) = sum(Dis);
+        err2(j) = sqrt(sum(Dis.^2));
     end
     l0(i) = mean(err0);
     l1(i) = mean(err1);
