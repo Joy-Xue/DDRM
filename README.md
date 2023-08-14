@@ -7,6 +7,7 @@ Many applications rely on continual data collection to provide real-time informa
 ## Code
 1. Under DDRM, the function: DDRM/main.m, is run to achieve estimation errors over time-series data. Three variables, namely, T (time horizon 16 or 32), D (dataset) and  K (optimal k value under different \epsilon), need be set by uncommenting the corresponding commands.
 2. Under OptimalK, the function: OptimalK/main.m, is run to get the optimal k value. Four variables, i.e., N (the number of users), pc (change rate), f (the initial frequency) and T (time horizon), could be set.
+3. Picture.m is a template for plotting a figure by results.
 ## Dataset
 1. stock_16.txt (real dataset with T=16)
 2. stock_32.txt (real dataset with T=32)
